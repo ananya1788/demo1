@@ -1,0 +1,21 @@
+1./user/register   post 
+2./user/login     post
+3./user/profileimage  post
+
+
+
+//authorized
+4.user/updateprofile/:id put
+5.user/uploadimages/:id post
+6.user/viewuserprofile/:id  get (particular user profile without user_images table)
+7.admin/viewalluserprofile get(all user details)
+8.user/userdetails/:id get (particular user profile with user_images table)
+9.user/updatelatlog/:id put (update lat and long of user)
+10.user/deleteimages/:user_id  delete 
+11.'user/locationfetch/:long/:lat'  get
+ 
+
+http://13.232.100.13:6010/v1
+
+
+user:name,mobile,birthday,gender,image,sexual_pref,occupation , height , religion , hobby ,lat,long
